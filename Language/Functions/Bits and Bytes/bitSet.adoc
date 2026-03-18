@@ -12,29 +12,29 @@ subCategories: [ "Bits and Bytes" ]
 
 
 // OVERVIEW SECTION STARTS
-Sets (writes a 1 to) a bit of a numeric variable.
+Imposta (assegna il valore 1) a un bit di una variabile numerica.
 [#overview]
 --
 
 [float]
-=== Description
+=== Descrizione
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `bitSet(x, n)`
 
 
 [float]
-=== Parameters
-`x`: the numeric variable whose bit to set
+=== Parametri
+`x`: la variabile numerica su cui impostare il bit
 
-`n`: which bit to set, starting at 0 for the least-significant (rightmost) bit
+`n`: quale bit settare, partendo da 0 per il bit meno significativo (quello più a destra)
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
