@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Descrizione
-Reads a bit of a number.
+Legge un bit da un numero.
 [%hardbreaks]
 
 
