@@ -16,22 +16,22 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
-Extracts the high-order (leftmost) byte of a word (or the second lowest byte of a larger data type).
+=== Descrizione
+Estrae il byte di ordine più alto (quello più a sinistra) di un word (o il secondo byte meno alto di un tipo di dati più grande).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintasi
 `highByte(x)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: a value of any type
 
 [float]
-=== Returns
+=== Restituisce
 byte
 
 --
@@ -43,7 +43,7 @@ byte
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/word[word()]
