@@ -38,7 +38,7 @@ La temporizzazione di questa funzione è stata determinata empiricamente e proba
 `timeout` (opzionale): il numero dei microsecondi in cui aspettare che l'impulso parta; Il valore predefinito è di un secondo ( unsigned long )
 [float]
 === Restituisce
-la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito prima del timeout ( unsigned long )
+La durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito prima del timeout ( unsigned long )
 
 --
 // OVERVIEW SECTION ENDS
@@ -58,14 +58,14 @@ Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 [source,arduino]
 ----
 int pin = 7;
-unsigned long duration;
+unsigned long durata;
 
 void setup() {
   pinMode(pin, INPUT);
 }
 
 void loop() {
-  duration = pulseInLong(pin, HIGH);
+  durata = pulseInLong(pin, HIGH);
 }
 ----
 [%hardbreaks]
